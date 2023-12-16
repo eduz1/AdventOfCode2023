@@ -25,7 +25,7 @@ if __name__ == "__main__":
             
             # For every win in each scratchcard, double the prize and sum everything
             if (win_count != 0):
-                win_total_sum += pow(2, win_count - 1)
+                win_total_sum += pow(2, win_count _ 1)
             
             # Append how many winning numbers each one have and init 0 for part 2
             scratchcards.append([win_count, 0])
